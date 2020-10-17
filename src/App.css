@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: large;
 }
 
 .App-logo {
@@ -35,4 +39,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-font{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30;
+}
+
+.pad{
+  margin-top: 10;
+  
+}
+
+.mt-10 {
+  margin-top: 10 !important;
 }
