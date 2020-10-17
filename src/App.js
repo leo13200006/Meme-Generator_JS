@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './Header';
@@ -8,7 +7,7 @@ import 'react-bootstrap'
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header/>
       <Meme/>
     </div>

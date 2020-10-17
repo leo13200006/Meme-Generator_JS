@@ -54,3 +54,12 @@
 .mt-10 {
   margin-top: 10 !important;
 }
+
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  border-width: 5;
+  border: #282c34;
+  margin-top: 50;
+}
