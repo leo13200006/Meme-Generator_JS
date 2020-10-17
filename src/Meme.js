@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
+import { Button,Image,Row,Container,Col } from 'react-bootstrap';
 import './App.css'
 import Form from 'react-bootstrap/Form';
 
@@ -24,6 +24,15 @@ class Meme extends Component{
             </Form.Group>
             <Button variant="primary">Submit</Button>
             </Form>
+
+
+            <Container>
+                <Row>
+                <Col xs={6} md={4}>
+                <Image src="" rounded />
+                </Col>
+                </Row>
+            </Container>    
             </div>
     
         )
