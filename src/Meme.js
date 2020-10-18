@@ -39,7 +39,7 @@ class Meme extends Component{
 
     render() {
         return (
-            <div className="justify-content-center ">
+            <div className="justify-content-center">
             <Form className="row container justify-content-center mb-sm-3 mb-md-6 mt-sm-3 mt-md-6">
             <Form.Group controlId="basicInputForm" className="col-lg-6">
             <Form.Label>Top Text</Form.Label>
