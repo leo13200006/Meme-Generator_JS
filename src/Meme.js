@@ -8,7 +8,6 @@ class Meme extends Component{
     state = {
         topText: "",
         bottomText: "",
-        randomImg: "http://i.imgflip.com/1bij.jpg",
         allMemeImgs: ['']
     }
 
@@ -55,13 +54,13 @@ class Meme extends Component{
             This will be displayed on bottom side of the meme.
             </Form.Text>
             </Form.Group>
-            <Button variant="primary" onClick={this.handleSubmit}>Next Meme</Button>
+            {/* <Button variant="primary" onClick={this.handleSubmit}>Next Meme</Button> */}
             </Form>
 
 
             <div className="meme mb-sm-3 mb-md-6">
-                    <img src={this.state.randomImg} alt="" className="img-fluid"/>
-                    <h2 className="top">{this.state.topText}</h2>
+                    <img src={this.props.image} alt="" className="img-fluid"/>
+                    <h2 className="top col-sm-3 col-md-6">{this.state.topText}</h2>
                     <h2 className="bottom">{this.state.bottomText}</h2>
                 </div>    
             </div>
